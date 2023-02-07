@@ -1,0 +1,39 @@
+@import "./_functions";
+@import "./variables";
+
+footer {
+  @include shadows();
+  @include standard();
+  bottom: 0;
+  padding: 1.5rem;
+  background-color: $gray;
+  color: $white;
+}
+
+header {
+  @include shadows();
+  @include standard();
+  position: fixed;
+  top: 0;
+  padding: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: $green;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+}
+
+#quiz-list {
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (max-width: 1024px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
