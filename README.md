@@ -1,6 +1,6 @@
 # Quiz App
 
-🗓️ Quiz App MERN Project.
+🗓️ MERN Project Quiz App.
 
 ![thumbnail.png](https://github.com/Piterson25/Quiz_App/blob/main/thumbnail.png)
 
